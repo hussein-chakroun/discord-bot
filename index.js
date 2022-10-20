@@ -53,24 +53,13 @@ client.on('message', async message => {
     if (command === 'bot') {
         message.reply('This bot is a bot made by shiko')
     }
-    if (command === 'tmas5ar3afadel') {
-        message.reply('can ye')
+    if (command === 'canye') {
+        message.reply('west')
     }
-    if (command === 'gofuckyourself') {
-        message.reply('fuck you enta wle ')
+    if (command === 'hello') {
+        message.reply('hey there! ')
     }
     
-    //create a bot command that sends a message to the channel
-    if (command === 'kol-5ara') {
-        message.reply('mabeklak')
-    }
-    if (command == 'sekaymi') {
-        message.reply('tampa')
-    }
-    //create a command that makes the bot videocall someone  
-    if (command === 'tmas5ar-3a-fadel') {
-        message.reply('fatabeel')
-    }
     //create a help menu that sends a message with the commands
     if (command === 'help') {
         message.reply('m!ping \n m!avatar \n m!membercount \n m!poll \n m!bot \n m!tmas5ar3afadel \n m!gofuckyourself \n m!elle-nekte \n m!kol-5ara \n m!sekaymi \n m!tmas5ar-3a-fadel')
@@ -90,15 +79,15 @@ client.on('message', async message => {
         message.reply(Math.floor(Math.random() * 10) + 1);
     }
     //respond with a random text 
-    if (command === 'ellenekte') {
+    if (command === 'fill you"re text') {
         let text = [
-            'mara wa7ad ken meshe am za7at fadel',
-            'mara wa7ad tawil am met 5abtt braso teyara',
+            'fill you"re text',
+            'fill you"re text',
         ]
         message.reply(text[Math.floor(Math.random() * text.length)]);
     }
-    if (command == 'faye2fadel') {
-        message.reply('@fadel.shaka feee2 wle')
+    if (command == 'fill you"re text') {
+        message.reply('fill you"re text')
     }
     // send spam to the channel
     if (command === 'spam') {
